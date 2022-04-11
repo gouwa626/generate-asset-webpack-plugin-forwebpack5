@@ -10,6 +10,11 @@
     "type": "git",
     "url": "https://github.com/gouwa626/generate-asset-webpack-plugin-forwebpack5.git"
   },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "asset"
+  ],
   "author": "xibaoqiang",
   "license": "ISC"
 }
