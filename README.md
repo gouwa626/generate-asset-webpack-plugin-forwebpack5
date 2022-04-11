@@ -1,2 +1,1 @@
-# generate-asset-webpack-plugin-forwebpack5
-generate-asset-webpack-plugin-forwebpack5
+基于generate-asset-webpack-plugin兼容webpack5+
