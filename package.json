@@ -1,10 +1,11 @@
 {
   "name": "generate-asset-webpack-plugin-forwebpack5",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "generate-asset-webpack-plugin-forwebpack5",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "mkdir -p dist && npx babel index.js --out-file dist/index.js",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,11 @@
     "asset"
   ],
   "author": "xibaoqiang",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "babel-cli": "^6.26.0"
+  }
 }
